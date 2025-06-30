@@ -10,7 +10,7 @@ class Config:
     #if not TELEGRAM_APP_HASH:
         #raise ValueError("TELEGRAM_APP_HASH not set")
 
-    if not TELEGRAM_APP_ID:
-        raise ValueError("TELEGRAM_APP_ID not set")
-    if not TELEGRAM_TOKEN or not PYRO_SESSION:
-        raise ValueError("PYRO_SESSION / TELEGRAM_TOKEN not set")
+    #if not TELEGRAM_APP_ID:
+        #raise ValueError("TELEGRAM_APP_ID not set")
+    #if not TELEGRAM_TOKEN or not PYRO_SESSION:
+        #raise ValueError("PYRO_SESSION / TELEGRAM_TOKEN not set")
