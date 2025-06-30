@@ -7,8 +7,8 @@ class Config:
     TELEGRAM_APP_HASH= getenv('da61e3a08b5ac78ce28b4a4cd854aeec')
     TELEGRAM_APP_ID=getenv('10738943')
         
-    if not TELEGRAM_APP_HASH:
-        raise ValueError("TELEGRAM_APP_HASH not set")
+    #if not TELEGRAM_APP_HASH:
+        #raise ValueError("TELEGRAM_APP_HASH not set")
 
     if not TELEGRAM_APP_ID:
         raise ValueError("TELEGRAM_APP_ID not set")
